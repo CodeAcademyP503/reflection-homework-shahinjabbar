@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="InfaTechnologies.Core.Database">
+    <Position X="3.5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAACAAQAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Database.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="InfaTechnologies.Core.InMemoryDatabase">
+    <Position X="0.75" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="InfaTechnologies.Core.Database" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="6" />
+        <Point X="2.25" Y="6" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\InMemoryDatabase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfaTechnologies.Core.InMemoryDbSet&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAABAAAABAAAAAAAgAAAAEAAIA=</HashCode>
+      <FileName>Core\InMemoryDbSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="InfaTechnologies.Exceptions.EntityExistsException" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\EntityExistsException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfaTechnologies.MainForm" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cDCAAAAAAaAA4BAAAPyBAABSIAAIAgAAEAAAgQABBAA=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfaTechnologies.Card" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAAAAAAAAAgEgAACAAAAAQAIAAQAgAAAAAAAA=</HashCode>
+      <FileName>Models\Card.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfaTechnologies.Program" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfaTechnologies.Models.AppUser" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYACAAAACAAQAAAAAgAAAQIAAAAAAACAAAAAAACAAA=</HashCode>
+      <FileName>Models\AppUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfaTechnologies.Models.Entity&lt;T&gt;" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfaTechnologies.Models.Incident" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAIEAAAAAAAQAEAAIAAAAAAAAAAJAEAIAAIQA=</HashCode>
+      <FileName>Models\Incident.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfaTechnologies.Properties.Resources" Collapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfaTechnologies.Properties.Settings" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="InfaTechnologies.Core.IDbSet&lt;T&gt;">
+    <Position X="6.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAABAAAAAAAAAAAAgAAAAEAAIA=</HashCode>
+      <FileName>Core\IDbSet.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="InfaTechnologies.CurrencyType">
+    <Position X="8.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAQAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Models\CurrencyType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="InfaTechnologies.Models.RoleType">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Models\RoleType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
